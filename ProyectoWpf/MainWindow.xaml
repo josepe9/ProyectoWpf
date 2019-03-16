@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoWpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Menu" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="191*"/>
+            <RowDefinition Height="229*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="232"/>
+            <ColumnDefinition Width="56"/>
+            <ColumnDefinition Width="12*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" Width="222" />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,66,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="212"/>
+        <Button Content="Button" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Left" Margin="134,49,0,0" VerticalAlignment="Top" Width="75" Click="mibotton">
+         
+        </Button>
+          
+        <Calendar Grid.Column="2" HorizontalAlignment="Left" Margin="110,10,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
