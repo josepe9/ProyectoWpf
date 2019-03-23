@@ -23,6 +23,7 @@
         </Button>
           
         <Calendar Grid.Column="2" HorizontalAlignment="Left" Margin="110,10,0,0" VerticalAlignment="Top"/>
+        <ScrollViewer Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="379,89,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>
